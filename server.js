@@ -16,9 +16,9 @@ app.use(bodyParser.json())
 // config for your database
 var config = {
     user: 'sa',
-    password: 'Citizen3548f',
-    server: 'macsgameboard.com',
-    database: 'GameSite'
+    password: 'xxxxx',
+    server: 'xxxx',
+    database: 'xxxx'
 };
 
 app.get('/listGames', asyncWrapper(getGames));

@@ -57,5 +57,5 @@ async function addGame(req, res) {
 var server = app.listen(8081, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log("Example app listening at http://%s:%s", host, port)
+    console.log("Games API Listening on: http://%s:%s", host, port)
 })
